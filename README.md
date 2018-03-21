@@ -52,6 +52,7 @@ Additionally if working on Linux, mono is required to run DocFX. Follow the step
 
 # File structure
 
+```
 +-- DocFxConfig
 |   +-- api
 |   +-- apidoc
@@ -70,3 +71,4 @@ Additionally if working on Linux, mono is required to run DocFX. Follow the step
 |   +-- index.html
 |   +-- ...
 +
+```
