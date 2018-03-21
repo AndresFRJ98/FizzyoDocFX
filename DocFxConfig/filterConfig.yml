@@ -1,0 +1,51 @@
+apiRules:
+- include:
+      uidRegex: '^Session$'
+- exclude:
+      uidRegex: ^System\.Object
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.AchievementData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.AllAchievementData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.AllHighscoreData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.AllUserData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.CalibrationData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.CalibrationReturnType$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.FizzyoFramework.TestHarnessData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.HighscoreData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.LoginReturnType$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.UserData$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.UserTag$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.UserTagReturnType$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.ExhalationStartedEventHandler$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.ExhalationCompleteEventArgs$'
+      type: Type
+- exclude:
+      uidRegex: '^Fizzyo\.ExhalationCompleteEventHandler$'
+      type: Type
